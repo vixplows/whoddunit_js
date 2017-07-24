@@ -106,4 +106,13 @@ console.log('the murderer is ', murderer);
 
 // ### Episode 7 - Make up your own episode/s!
 
+var age = 37;
+
+function youngerAge() {
+  this.age = (30 < 28) ? 30 : 28;
+  return age;
+}
+
+console.log('My age is: ', youngerAge());
+
 // Make up your own episode which can be whatever you wish and the rest of the class will work out together what happened and what the output will be.
